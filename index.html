@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BOGO Product Offers</title>
+  <title>BOGO Product Offers Page</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,14 +12,14 @@
       <span>YAY! It’s BOGO</span>
     </div>
 
-    <!-- ==== 1 UNIT BOX ==== -->
+    <!-- -----Unit 1 box----- -->
     <div class="offer-box" id="box1">
       <label class="box-header">
         <input type="radio" name="offer" />
         <div class="unit-label-wrap">
           <div class="unit-label-line">
             <span class="unit-label-text">1 Unit</span>
-            <span class="tag red">10% Off</span>
+            <span class="tag per">10% Off</span>
           </div>
           <span class="sub-label">Standard Price</span>
         </div>
@@ -28,6 +28,8 @@
           <span class="strikethrough">$24.00 USD</span>
         </div>
       </label>
+
+<!-- -----Unit 1 box colour-size----- -->
       <div class="box-content">
         <div class="box-content-inner">
           <div class="row header-row">
@@ -44,7 +46,7 @@
       </div>
     </div>
 
-    <!-- ==== 2 UNIT BOX (Default Selected) ==== -->
+    <!-- -----Unit 2 box ----- -->
     <div class="offer-box active" id="box2">
       <div class="ribbon">MOST POPULAR</div>
       <label class="box-header">
@@ -57,6 +59,8 @@
           <span class="strikethrough">$24.00 USD</span>
         </div>
       </label>
+
+      <!-- -----Unit 2 box size-colour it expands after selecting radio button ----- -->
       <div class="box-content">
         <div class="box-content-inner">
           <div class="row header-row">
@@ -78,7 +82,7 @@
       </div>
     </div>
 
-    <!-- ==== 3 UNIT BOX ==== -->
+   <!-- -----Unit 3 box ----- -->
     <div class="offer-box" id="box3">
       <label class="box-header">
         <input type="radio" name="offer" />
@@ -90,6 +94,8 @@
           <span class="strikethrough">$24.00 USD</span>
         </div>
       </label>
+
+      <!-- -----Unit 3 box colour-size ----- -->
       <div class="box-content">
         <div class="box-content-inner">
           <div class="row header-row">
@@ -116,16 +122,17 @@
       </div>
     </div>
 
-    <!-- ==== FOOTER ==== -->
+    <!-- -----footer of offerbox ----- -->
     <div class="footer">
       <p class="free">Free Delivery</p>
       <p class="total">Total : $18.00 USD</p>
     </div>
-    
+
+    <!-- -----Add-t0-cart button  ----- -->
     <button class="add-to-cart">+ Add to Cart</button>
     <p id="cart-message" style="display:none; color: #ff4e8a; font-weight: bold; text-align: center; margin-top: 0.5rem;">
-      🎉 Item added to cart!
-    </p>
+       Item added to cart!
+    </p>    // Added this extra to show a pop message after clicking the button 
     <p class="powered"><i> @ Powered by Pumper</i></p>
   </div>
 

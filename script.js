@@ -17,7 +17,7 @@ addToCartBtn.addEventListener('click', () => {
   message.style.display = 'block';
   message.textContent = " Item added to cart!";
   
-  // optionally added so that the pop up message will disappear
+  
   setTimeout(() => {
     message.style.display = 'none';
   }, 2000);

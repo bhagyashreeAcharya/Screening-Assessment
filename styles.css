@@ -14,11 +14,6 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   
-  /* h2 {
-    text-align: center;
-    color: #ff4e8a;
-    margin-bottom: 1.5rem;
-  } */
 
   .heading-with-lines {
   display: flex;
@@ -44,7 +39,6 @@ body {
 .offer-box {
     border: 2px solid #ccc;
     margin-bottom: 1rem;
-    padding: 0; /* remove padding here */
     transition: border 0.3s ease;
     position: relative;
     width: 100%;
@@ -53,8 +47,8 @@ body {
 
   .offer-box:hover {
     
-    transform: scale(1.04); /* 💥 slightly bigger */
-    background-color: whitesmoke; /* light pink hover tint */
+    transform: scale(1.04); 
+    background-color: whitesmoke; 
   }
   
   .offer-box.active {
@@ -81,7 +75,6 @@ body {
   }
   
   
-  
   .unit-label {
     font-weight: bold;
     flex-grow: 1;
@@ -90,8 +83,6 @@ body {
     gap: 8px;
   }
   
-
-
   .unit-label-wrap {
     display: flex;
     flex-direction: column;
@@ -134,7 +125,6 @@ body {
     display: block;
     text-align: left;
     margin-top: 1px;
-    
   }
   
   .tag {
@@ -149,8 +139,6 @@ body {
     background-color: #FF6B82;
     color: #fff;
   }
-  
-
   
   .badge {
     font-size: 0.7rem;
@@ -178,7 +166,6 @@ body {
     flex-wrap: wrap;
   }
 
-  
   .footer {
     display: flex;
     justify-content: space-between;
@@ -202,7 +189,7 @@ body {
   .add-to-cart {
     width: 100%;
     padding: 0.75rem;
-    padding-left: 1rem;   /* match .footer and inner spacing */
+    padding-left: 1rem;   
     padding-right: 1rem;
     box-sizing: border-box;
     background-color: #FF6B82;
@@ -216,8 +203,8 @@ body {
   }
 
   .add-to-cart:hover {
-    background-color: #e44379; /* slightly darker pink */
-    transform: scale(1.03);    /* subtle pop */
+    background-color: #e44379; 
+    transform: scale(1.03);   
   }
   
   .powered {
@@ -227,7 +214,6 @@ body {
     margin-top: 0.5rem;
   }
   
-
   .ribbon {
     position: absolute;
     top: -11px;
@@ -242,7 +228,7 @@ body {
     height: 15px;
   }
   
-  /* Left triangle - smaller and darker */
+  /* Left triangle  */
   .ribbon::before {
     content: "";
     position: absolute;
@@ -251,10 +237,10 @@ body {
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
-    border-right: 7px solid #d14366; /* darker pink */
+    border-right: 7px solid #d14366; 
   }
   
-  /* Right triangle - smaller and darker */
+  /* Right triangle  */
   .ribbon::after {
     content: "";
     position: absolute;
@@ -266,7 +252,7 @@ body {
     border-left: 6px solid #d14366; /* darker pink */
   }
   
-  /* === FORM STYLE FOR SIZE + COLOUR === */
+  /* --- FORM STYLE FOR SIZE + COLOUR --- */
 .form-row {
     display: flex;
     justify-content: space-between;
@@ -295,8 +281,8 @@ body {
     border-radius: 4px;
   }
 
-  /* === Improved layout for Unit 2 and 3 === */
-/* ============== FORM SECTION FIX ============== */
+
+
 .box-content {
     display: none;
     padding: 1rem 1rem 0.5rem 1rem;
@@ -305,10 +291,10 @@ body {
   }
   
   .box-content-inner {
-    padding-left: 34px; /* or 50px, tweak to match alignment */
+    padding-left: 34px; 
     padding-right: 30px;
     padding-bottom: 15px;
-    max-width: 100%; /* prevent overflow */
+    max-width: 100%; 
 
   }
   
@@ -320,8 +306,6 @@ body {
     margin-bottom: 0.5rem;
     color: #444;
   }
-  
-  
   
   .box-content select {
     width: 80px;
@@ -336,8 +320,8 @@ body {
   
   .box-content .row {
     display: grid !important;
-    grid-template-columns: 25px 85px 85px; /* label + tight dropdowns */
-    column-gap: 1px; /* tight space between Size and Colour */
+    grid-template-columns: 25px 85px 85px; 
+    column-gap: 1px; 
     align-items: center;
     margin-bottom: 0.5rem;
   }
@@ -363,7 +347,7 @@ body {
   .box-header input[type="radio"]::before {
     content: "";
     position: absolute;
-    top: 2px;     /* ✅ this centers the dot */
+    top: 2px;     
     left: 2px;
     width: 8px;
     height: 8px;
